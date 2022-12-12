@@ -8,7 +8,7 @@ if (!args[0]) {
 }
 
 if (!args[0]) {
-  throw new Error('Argument 1 is missing, add Session ID as the second arg.');
+  throw new Error('Argument 1 is missing, add the AOC Cookie value as the second arg.');
 }
 
 const directory = `./day${args[0]}`;
